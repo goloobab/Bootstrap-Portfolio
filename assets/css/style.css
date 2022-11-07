@@ -1,7 +1,15 @@
+
+
 .fontawesome {
     display: flex;
     justify-content: center;
-      
+    }
+
+.fontawesome .nav .nav-item {
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    font-size: xx-large;
+    background-color: aqua;
 }
 
 /* .card-img-top {

@@ -25,24 +25,30 @@
 <body>
     <header>
         <!-- Navigation  -->
-        <div class="navbar justify-content-center">
-            <ul class="nav nav-pills">
-                <li class="nav-item">
-                    <a class="nav-link" href="#about"> ABOUT</a>
-                </li>
-                <div class="navbar"><i class="fa-solid fa-angles-down"></i></div>
-                <li class="nav-item">
-                    <a class="nav-link " href="#projects"></i>WORK</a>
-                </li>
-                <div class="navbar"><i class="fa-solid fa-ellipsis-vertical"></i></div>
-                <li class="nav-item">
-                    <a class="nav-link" href="#skills">SKILLS</a>
-                </li>
-                <div class="navbar"><i class="fa-solid fa-angles-down"></i></div>
-                <li class="nav-item">
-                    <a class="nav-link " href="#contact">CONTACT</a>
-                </li>
-            </ul>
+        <div class="menu-bar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">BG</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT </a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">WORK</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">SKILLS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CONTACT</a>
+                    </li>
+                </ul>
+                </div>
+            </nav>
         </div>
     </header>
 
@@ -98,7 +104,7 @@
         </div>
         <p>Sample text sample text</p>
          
-          <div class="card-deck">
+          <div class="card-deck mb-3">
             <div class="card">
               <img src="./assets/images/project-1.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -125,7 +131,7 @@
             </div>
           </div>
         
-          <div class="card-deck mb-4">
+          <div class="card-deck">
             <div class="card">
               <img src="https://placehold.co/600x400" class="card-img-top" alt="...">
               <div class="card-body">
@@ -154,11 +160,34 @@
         </div>
 
     <!-- Contact area -->
-    <section class="container" id="contact">
+    <section class="container container-md w-50 p-3 " id="contact">
         <div class="title">
             <h2 class="display-6 text-center">CONTACT</h2>
             </div>
             <p>Sample text sample text</p>
+            <div class="fontawesome ">
+                <ul class="nav mr-3" id="fontawesome">
+                    <li class="nav-item"><i class="fa-brands fa-github"></i></li>
+                    <li class="nav-item"><i class="fa-brands fa-linkedin"></i></li>
+                    <li class="nav-item"><i class="fa-brands fa-twitter"></i></li>
+                </ul>
+            </div>
+
+            <form>
+                <div class="form-group">
+                    <label for="formGroupExampleInput">Name</label>
+                    <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                  </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                </div>
+               
+               <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </form>
     </section>
         <!--Section: Contact v.2-->
     <section class="container mb-4">
