@@ -4,6 +4,12 @@
       
 }
 
+/* .card-img-top {
+    width: auto
+    height: auto;
+    object-fit: cover;
+} */
+
 .yoso{
     text-align: center;
     font-size: 120px;
@@ -11,4 +17,8 @@
 
 .lead{
     text-align: center;
+}
+
+.nav-link {
+    color: #000;
 }
