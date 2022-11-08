@@ -27,11 +27,14 @@
 .nav-link:hover {
     font-weight: 600;
     border-bottom: 1px solid #000;
-}
+   }
 
 /* .navbar-nav {
        justify-content: center !important;
 } */
+h1 {
+    
+}
 
 .fontawesome {
     display: flex;
@@ -64,9 +67,23 @@
     color: #000;
 }
 
+/* Footer css */
+.footer-menu {
+    padding-left: 3px;
+}
+
 @media only screen and (max-width: 1000px){
     .nav-link:hover{
         border-bottom: none !important;
     }
     
+}
+
+@media only screen and (max-width:600px) {
+    .fontawesome .nav .nav-item {
+        padding: 0px 5px 0px 5px;
+        margin: 5px;
+        font-size: large;
+        background-color: aqua;
+    }
 }
