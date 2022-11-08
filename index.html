@@ -214,23 +214,25 @@
     </section>
 
     <!-- Contact area -->
-    <section class="container container-md w-50 p-3 " id="contact">
+    <section class="container col-md-6 mx-auto" id="contact">
         <div class="title" id="contact">
             <h2 class="display-6 text-center">CONTACT</h2>
         </div>
         <p>Sample text sample text</p>
-        <div class="fontawesome ">
-            <ul class="nav mr-3" id="fontawesome">
-                <li class="nav-item"><i class="fa-brands fa-github"></i></li>
-                <li class="nav-item"><i class="fa-brands fa-linkedin"></i></li>
-                <li class="nav-item"><i class="fa-brands fa-twitter"></i></li>
-            </ul>
-        </div>
-        <!-- Contact form -->
+
+    <!-- Fontawesome with the fade animation -->
+        <div class="fa-2x text-center">
+            <i class="fa-brands fa-github fa-fade"></i>               
+            <a href="https://www.linkedin.com/in/goloobab/"><i class="fa-brands fa-linkedin-in fa-bounce" style=" --fa-bounce-start-scale-x: 1; --fa-bounce-start-scale-y: 1; --fa-bounce-jump-scale-x: 1; --fa-bounce-jump-scale-y: 1; --fa-bounce-land-scale-x: 1; --fa-bounce-land-scale-y: 1; " ></i></a>
+            <i class="fa-brands fa-twitter fa-fade"></i>
+          </div>
+
+
+       <!-- Contact form -->
         <form>
             <div class="form-group">
                 <label for="formGroupExampleInput">Name</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Example input">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Enter name">
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Email address</label>
@@ -239,7 +241,7 @@
 
             <div class="form-group">
                 <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                <textarea class="form-control" id="exampleFormControlTextarea1" placholder="Message" rows="3"></textarea>
             </div>
         </form>
         <input class="btn btn-primary" type="submit" value="Submit">
@@ -250,19 +252,20 @@
     <div class="container">
         <div class="row">
             <div class="col-md-4 text-center">
-                <i class="fas fa-map-marker-alt mt-4 fa-2x"></i>
+                <i class="fas fa-map-marker-alt mt-4 fa-2x fa-flip"></i>
                 <p>Chelmsford Essex, CA 94126, UK</p>
             </div>
             <div class="col-md-4 text-center">
-                <i class="fas fa-phone mt-4 fa-2x"></i>
+                <i class="fas fa-phone mt-4 fa-2x fa-shake"></i>
                 <p>+ 01 234 567 89</p>
             </div>
             <div class="col-md-4 text-center">
-                <i class="fas fa-envelope mt-4 fa-2x"></i>
+                <i class="fas fa-envelope mt-4 fa-2x fa-flip"></i>
                 <p>contact@goloobab.com</p>               
             </div>
         </div>
     </div>
+    <!-- testing -->    
     
     <!-- FOOTER HTML  -->
     <div class="container bg-light">
