@@ -1,13 +1,19 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
+
+}
+/* Logo CSS */
+.navbar-brand {
+    border: 2px solid rgb(255, 146, 3);
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .nav-link {
     font-size: 16px;
     font-weight: 500;
-    margin:3px;
+    margin: 3px;
 }
 
 /* Toggler CSS */
@@ -27,26 +33,37 @@
 .nav-link:hover {
     font-weight: 600;
     border: 1px solid rgb(255, 146, 3);
-   }
+}
 
 /* .navbar-nav {
        justify-content: center !important;
 } */
-h1 {
-    
-}
 
+/* CSS FOR THE FONTAWESOME */
 .fontawesome {
     display: flex;
     justify-content: center;
-    }
+}
 
-.fontawesome .nav .nav-item {
+.fa-2x a {
+    color: #000;
+}
+
+.fa-2x a:hover {
+    color: rgb(3, 104, 255);
+}
+
+/*  */
+.card-title {
+    display: flex;
+    justify-content: center;
+}
+
+/* .fontawesome .nav .nav-item {
     padding: 0px 10px 0px 10px;
     margin: 10px;
-    /* font-size: xx-large; */
-    background-color: aqua;
-}
+   background-color: aqua;
+} */
 
 /* .card-img-top {
     width: auto
@@ -54,9 +71,9 @@ h1 {
     object-fit: cover;
 } */
 
-.yoso{
-       font-size: 10vw;
-   }
+.yoso {
+    font-size: 10vw;
+}
 
 /* .lead{
     text-align: center;
@@ -65,6 +82,7 @@ h1 {
 .nav-link {
     color: #000;
 }
+
 /* hero HELLO CSS */
 
 .hello {
@@ -75,20 +93,25 @@ h1 {
     background-color: rgb(255, 146, 3);
 }
 
+/* BUTTON CSS */
+.btn {
+    background-color: rgb(255, 146, 3);
+}
+
 /* SKILL */
 /* Footer css */
 .py-3 .nav .nav-item .nav-link:hover {
     border: 1px solid;
     padding: 10px;
     box-shadow: 2px 5px rgb(255, 146, 3);
-    
+
 }
 
-@media only screen and (max-width: 1000px){
-    .nav-link:hover{
+@media only screen and (max-width: 1000px) {
+    .nav-link:hover {
         border-bottom: none !important;
     }
-    
+
 }
 
 @media only screen and (max-width:600px) {
