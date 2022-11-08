@@ -26,7 +26,7 @@
 /* Hover effect css on menu */
 .nav-link:hover {
     font-weight: 600;
-    border-bottom: 1px solid rgb(255, 146, 3);
+    border: 1px solid rgb(255, 146, 3);
    }
 
 /* .navbar-nav {
@@ -44,7 +44,7 @@ h1 {
 .fontawesome .nav .nav-item {
     padding: 0px 10px 0px 10px;
     margin: 10px;
-    font-size: xx-large;
+    /* font-size: xx-large; */
     background-color: aqua;
 }
 
