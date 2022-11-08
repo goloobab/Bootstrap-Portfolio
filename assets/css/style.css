@@ -26,7 +26,7 @@
 /* Hover effect css on menu */
 .nav-link:hover {
     font-weight: 600;
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid rgb(255, 146, 3);
    }
 
 /* .navbar-nav {
@@ -55,21 +55,33 @@ h1 {
 } */
 
 .yoso{
-    text-align: center;
-    font-size: 120px;
+       font-size: 10vw;
    }
 
-.lead{
+/* .lead{
     text-align: center;
-}
+} */
 
 .nav-link {
     color: #000;
 }
+/* hero HELLO CSS */
 
+.hello {
+    border-radius: 120px 0px 120px 0px;
+}
+
+#hello {
+    background-color: rgb(255, 146, 3);
+}
+
+/* SKILL */
 /* Footer css */
-.footer-menu {
-    padding-left: 3px;
+.py-3 .nav .nav-item .nav-link:hover {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 5px rgb(255, 146, 3);
+    
 }
 
 @media only screen and (max-width: 1000px){
@@ -86,4 +98,9 @@ h1 {
         font-size: large;
         background-color: aqua;
     }
+
+    /* .skil {
+        margin: 0px 10px 0px 10px;
+        justify-content: center;
+    } */
 }
