@@ -10,14 +10,14 @@ This single webpage portfolio project is developed using HTML and CSS with the h
 
 * Understanding the meaning of the different classes in bootstrap.
 * Keeping up with the change in 'classes' in line with the framework versions.
-* Adding media queries for the different veiw ports.
+* Analyzing and creating user funnels.
 
 ## Things I learned 
 * Bootstrap as a Framework.
 * Customizing the boostrap CSS. 
 * How to design using the mobile first approach.
 * Got a better understanding of how to read product documentation.
-* The importance of using semantic elements in code.
+* User Experience design elements.
 
 ## Screen Shots
 ![screencapture-goloobab-github-io-Bootstrap-Portfolio-2022-11-09-01_40_40](https://user-images.githubusercontent.com/26630637/200718028-b357a9d8-3d61-4929-a577-39f11a55d6ff.png)
