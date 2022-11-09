@@ -65,19 +65,13 @@
    background-color: aqua;
 } */
 
-/* .card-img-top {
-    width: auto
-    height: auto;
-    object-fit: cover;
-} */
-
+.about .display-6 {
+    color: rgb(255, 146, 3);
+}
 .yoso {
     font-size: 10vw;
 }
 
-/* .lead{
-    text-align: center;
-} */
 
 .nav-link {
     color: #000;
