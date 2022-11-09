@@ -20,7 +20,7 @@ This single webpage portfolio project is developed using HTML and CSS with the h
 * The importance of using semantic elements in code.
 
 ## Screen Shots
-
+![screencapture-goloobab-github-io-Bootstrap-Portfolio-2022-11-09-01_40_40](https://user-images.githubusercontent.com/26630637/200718028-b357a9d8-3d61-4929-a577-39f11a55d6ff.png)
 
 ## Links
 Deployed project: https://goloobab.github.io/Bootstrap-Portfolio/
