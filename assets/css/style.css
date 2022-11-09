@@ -35,9 +35,6 @@
     border: 1px solid rgb(255, 146, 3);
 }
 
-/* .navbar-nav {
-       justify-content: center !important;
-} */
 
 /* CSS FOR THE FONTAWESOME */
 .fontawesome {
@@ -53,21 +50,12 @@
     color: rgb(3, 104, 255);
 }
 
-/*  */
+/* PROJECTS TEXT ALIGNMENT */
 .card-title {
     display: flex;
     justify-content: center;
 }
 
-/* .fontawesome .nav .nav-item {
-    padding: 0px 10px 0px 10px;
-    margin: 10px;
-   background-color: aqua;
-} */
-
-.about .display-6 {
-    color: rgb(255, 146, 3);
-}
 .yoso {
     font-size: 10vw;
 }
@@ -86,6 +74,28 @@
 #hello {
     background-color: rgb(255, 146, 3);
 }
+
+#line {
+    border:0.2px solid #ff921e;
+    
+}
+
+#image {
+    border: 1px solid #ffff;
+    
+}
+
+/* About me border radius */
+.about {
+    
+    border-radius: 200px 200px;
+}
+
+/* Card borders */
+.card-deck .card {
+    border-color: #ff921e;
+}
+
 
 /* BUTTON CSS */
 .btn {
@@ -116,8 +126,5 @@
         background-color: aqua;
     }
 
-    /* .skil {
-        margin: 0px 10px 0px 10px;
-        justify-content: center;
-    } */
+  
 }
