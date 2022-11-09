@@ -20,7 +20,7 @@ This single webpage portfolio project is developed using HTML and CSS with the h
 * User Experience design elements.
 
 ## Screen Shots
-![screencapture-goloobab-github-io-Bootstrap-Portfolio-2022-11-09-01_40_40](https://user-images.githubusercontent.com/26630637/200718028-b357a9d8-3d61-4929-a577-39f11a55d6ff.png)
+![screencapture-file-C-Users-Umahoro-bootcamp-week-3-Bootstrap-Portfolio-index-html-2022-11-09-04_03_55](https://user-images.githubusercontent.com/26630637/200735808-3818dae0-80e6-4154-81b9-7a1f712cd77a.png)
 
 ## Links
 Deployed project: https://goloobab.github.io/Bootstrap-Portfolio/
